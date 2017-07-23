@@ -53,3 +53,5 @@ navigate to http://localhost:1337
   - `PUT /driver/:id` Updates driver with posted body.
   - `DELETE /driver/:id` Deletes driver with the given id.
   
+## Test
+Testing for few scenarios `npm test`
