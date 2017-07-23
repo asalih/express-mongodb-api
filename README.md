@@ -23,7 +23,7 @@ navigate to http://localhost:1337
   - chai
   
 ## API
-  `POST /ride` waits coordinates in request body, like below. if you send maxDistance then searchs with this distance but if you don't, distance will be setting with `config.settings.defaultMaxDistance`. 
+  `POST /ride` waits coordinates in request body, like below. if you send maxDistance then searchs with this distance but if you don't, distance will be setting up with `config.settings.defaultMaxDistance`. 
   ```javascript
   //ride endpoint post boy
   {
