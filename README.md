@@ -26,8 +26,9 @@ navigate to http://localhost:1337
   `POST /ride` waits coordinates in request body, like below. if you send maxDistance then searchs with this distance but if you don't, distance will be setting up with `config.settings.defaultMaxDistance`. 
   ```javascript
   //ride endpoint post boy
+  //maxDistance is optional
   {
-	"maxDistance": 1000, //optional
+	"maxDistance": 1000, 
 	"coordinates": [40.993017, 29.072253]
 	}
   ```
