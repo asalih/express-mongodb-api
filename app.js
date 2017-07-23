@@ -21,7 +21,7 @@ app.use((err, req, res, next) => {
     next(err);
 });
 
-app.listen(config.server.port);
+app.listen(process.env.PORT || config.server.port);
 
 /* connect mongoose */
 mongoose.connect(config.mongodb.connectionString, {
