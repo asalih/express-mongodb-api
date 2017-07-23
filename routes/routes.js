@@ -44,7 +44,7 @@ router.get('/drivers/:page(\\d+)?', (req, res) => {
 
 		Driver.find({}).limit(limit).skip(skip).exec((err, drivers) => {
 			res.send({
-				hasNextPage: cnt > skip,
+				hasNextPage: cnt > (skip + limit),
 				drivers: drivers
 			});
 		});
