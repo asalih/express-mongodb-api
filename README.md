@@ -1,6 +1,6 @@
 # Example express api and mongodb geonear
 
-Example for searching for nearest driver of your point
+Example of searching for nearest driver of your point
 
 ## Install
     $ git clone https://github.com/asalih/express-mongodb-api.git
